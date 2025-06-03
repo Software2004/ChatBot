@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Gemini" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/chat</item>
+        <item name="backgroundColor">@color/backgroundcolorAlt</item>
+
+        <item name="android:windowBackground">?backgroundColor</item>
+
+
+        <item name="android:textColor">@color/backgroundcolor</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">?fontFamily</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="cardBackgroundColor">@color/cardBackLigth</item>
+
+
+    </style>
+
+    <style name="Theme.Gemini" parent="Base.Theme.Gemini" />
+
+    <color name="usr_chat_back">#d8Fdd2</color>
+</resources>

@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Gemini" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="colorPrimary">@color/chat</item>
+        <item name="backgroundColor">@color/backgroundcolor</item>
+
+        <item name="android:windowBackground">?backgroundColor</item>
+
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">?fontFamily</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="cardBackgroundColor">@color/cardBack</item>
+
+    </style>
+
+    <color name="usr_chat_back">#1C352F</color>
+
+</resources>

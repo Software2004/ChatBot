@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="backBtn">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="contentPadding">5dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:src">@drawable/angle_small_right</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Full</item>
+    </style>
+
+    <style name="editTextOutlined">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingHorizontal" tools:targetApi="o">10dp</item>
+        <item name="android:paddingVertical" tools:targetApi="o">15dp</item>
+        <item name="android:drawablePadding">15dp</item>
+        <item name="android:textColorHint">#aaaaaa</item>
+        <item name="android:background">@drawable/outlined_10dp_round_with_states_effect</item>
+    </style>
+    <style name="btn" parent="Widget.Material3.Button">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="iconTint">#fff  </item>
+    </style>
+    <style name="btn.txtbtn" parent="Widget.Material3.Button.TextButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingHorizontal">0dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+    <style name="Layout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="Layout.Vertical" parent="Layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="background">?backgroundColor</item>
+    </style>
+    <style name="Layout.Select.Icon" parent="Layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:tint">?colorSecondary</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+    </style>
+
+    <!--    Card Styles-->
+
+    <style name="Base.Theme.Gemini.Card" parent="Base.Theme.Gemini">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardBackgroundColor">?cardBackgroundColor</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+    </style>
+    <style name="Base.Theme.Gemini.Card.Alt" parent="Base.Theme.Gemini.Card">
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">?colorButtonNormal</item>
+    </style>
+
+    <!--    Button Styles-->
+
+
+
+    <style name="Layout.DisplayBtn" parent="Widget.Material3.Button">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">?backgroundColor</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="iconGravity">end</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="iconTint">#fff</item>
+        <item name="iconPadding">25dp</item>
+    </style>
+
+    <style name="Layout.btn.txtbtn" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Base.Theme.Gemini.btn.outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="strokeColor">#44aaaaaa</item>
+        <item name="android:textColor">?colorOnBackground</item>
+    </style>
+
+
+
+    <!--    Text Styles-->
+
+    <style name="Base.Theme.Gemini.text" parent="Base.Theme.Gemini">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">?colorSecondary</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+    <style name="Base.Theme.Gemini.textHeadingSmall" parent="Base.Theme.Gemini.text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Base.Theme.Gemini.textHeadingMedium" parent="Base.Theme.Gemini.textHeadingSmall">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Base.Theme.Gemini.textHeadingLarge" parent="Base.Theme.Gemini.textHeadingSmall">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="textHeadingVeryLarge" parent="Base.Theme.Gemini.textHeadingSmall">
+        <item name="android:textSize">35sp</item>
+    </style>
+    <style name="Base.Theme.Gemini.textBody" parent="Base.Theme.Gemini.text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?colorSecondary</item>
+    </style>
+    <style name="Base.Theme.Gemini.textBodyLarge" parent="Base.Theme.Gemini.text">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Base.Theme.Gemini.textBodySmall" parent="Base.Theme.Gemini.textBody">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="chipBtn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:maxWidth">280dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:paddingHorizontal">20dp</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:textColor">?android:textColor</item>
+        <item name="android:drawableTint">?colorSecondary</item>
+        <item name="android:background">@drawable/round_card</item>
+    </style>
+    <style name="chatComp" parent="chipBtn">
+        <item name="android:background">@drawable/round_card_3sides</item>
+    </style>
+
+    <style name="chatUser" parent="chipBtn">
+        <item name="android:background">@drawable/outlined_10dp_round_with_states_effect</item>
+    </style>
+
+    <style name="textNav" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+    <style name="chipStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="chipCornerRadius">100dp</item>
+        <item name="chipStartPadding">15dp</item>
+        <item name="chipEndPadding">15dp</item>
+        <item name="chipStrokeColor">#44aaaaaa</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:checkable">true</item>
+        <item name="android:textColor">?colorSecondary</item>
+        <item name="chipBackgroundColor">?backgroundColor</item>
+        <item name="chipIconTint">?colorOnBackground</item>
+    </style>
+    <style name="chipStyle2" parent="chipStyle">
+        <item name="android:layout_height">60dp</item>
+        <item name="chipCornerRadius">6dp</item>
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="chipIconSize">15dp</item>
+        <item name="chipBackgroundColor">#22aaaaaa</item>
+    </style>
+    <style name="chipStyle3" parent="chipStyle2">
+        <item name="android:alpha">0.95</item>
+        <item name="chipBackgroundColor">#44aaaaaa</item>
+    </style>
+
+    <style name="endRound" >
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">32.5dp</item>
+        <item name="cornerSizeBottomRight">32.5dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+</resources>
